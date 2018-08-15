@@ -13,6 +13,12 @@ class User < ApplicationRecord
   #validates :email, presence: true, length: { maximum: 50 },
   #                  format: { with: VALID_EMAIL_REGEX }
 
+  after_create :subscribe_user_to_mailing_list
 
+  private
+
+  def subscribe_user_to_mailing_list
+    SubscribeUserToMailingListJob.perform_now(self)
+  end
 
 end
