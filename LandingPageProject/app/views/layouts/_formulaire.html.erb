@@ -1,12 +1,12 @@
+
+
 <div class="center jumbotron">
-	<h1>Inscription</h1>
-	<br/><br/>
+  <h1>Inscription</h1>
+  <br/><br/>
 
   <div class="row">
     <div class="col-md-6 col-md-offset-3">
-      <%= form_for :user do |f| %>
-
-
+      <%= form_for @user, url: home_index_path do |f| %>
 
       <div class="form-group">
         <%= f.label :first_name %>
@@ -30,7 +30,7 @@
 
      <div class="form-group">
       <%= f.label :phone %>
-      <%= f.text_field :phone, placeholder: 'Your phone number',class: 'form-control' %>
+      <%= f.text_field :phone, placeholder: 'Phone number like "06 00 00 00 00"',class: 'form-control' %>
     </div>
 
     <div class="form-group">
