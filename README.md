@@ -3,7 +3,7 @@
 > Ce projet consite à faire partager ce concept auprès de diverses personnes, instituts...
 pour qu'elles s'inscrivent à la newsletter et ainsi recevoir les dernières actualités.
 
-## lien heroku: https://thp-landing.herokuapp.com/
+### lien heroku: https://thp-landing.herokuapp.com/
 
 ## elle est constituée de:
 
