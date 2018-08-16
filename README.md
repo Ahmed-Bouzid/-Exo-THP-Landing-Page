@@ -11,7 +11,7 @@ pour qu'elles s'inscrivent à la newsletter et ainsi recevoir les dernières act
 
 > d'un scrapping autour de ces cibles
 
-> de l'api Mailjet et Mailchimp
+> de l'api Mailjet
 
 > d'un système d'analyse sur le taux de conversion
 
