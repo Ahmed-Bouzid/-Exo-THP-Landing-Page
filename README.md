@@ -1,31 +1,26 @@
-# Landing page The Hacking Project
+# Landing pages The Hacking Project
 
-> Ce projet consite à faire partager ce concept auprès de diverses personnes, instituts...
-pour qu'elles s'inscrivent à la newsletter et ainsi recevoir les dernières actualités.
+L'application thp-landing regroupe 3 landing pages avec chacune un formulaire d'inscription à la newsletter de THP.
 
-### lien heroku: https://thp-landing.herokuapp.com/
+Le traffic sur le site est generé par du scrapping et des bots.
+Le site : https://www.leportagesalarial.com/coworking/ a eté scrappé afin de récuperer les adresses mails des espaces de coworking de France. 
+Avec l'API de Mailjet connecté, un email de présentation de THP et un lien redirigeant vers notre app avec le formulaire est envoyé à chaque adresse.
+ 
+Le Twitter bot est lui chargé d'envoyer un message redirigeant vers une autre landing page avec formulaire.
+La sélection des comptes Twitter s'est fait sur la base de recherches avec mots clés comme : éducation, emploi, numérique.
 
-## elle est constituée de:
+L'installation de G Analytics nous permet d'observer le taux de conversion entre les personnes contactées et les personnes inscrient. 
 
-> différents templates selons les cibles visées
 
-> d'un scrapping autour de ces cibles
 
-> de l'api Mailjet
 
-> d'un système d'analyse sur le taux de conversion
-
-> de bots pour le marketing
+                                           ### lien heroku: https://thp-landing.herokuapp.com/
 
 
 
 ### Les templates
 
-<<<<<<< HEAD
 > un template fait maison
-=======
-> un template fait maison (et un template qui a tout fait bugger donc on l'a enlevé)
->>>>>>> b05e6c7a64f5309fd973eade595c44fe89876f31
 
 
 
