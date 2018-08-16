@@ -21,7 +21,7 @@ pour qu'elles s'inscrivent à la newsletter et ainsi recevoir les dernières act
 
 ### Les templates
 
-> un template fait maison
+> un template fait maison (et un template qui a tout fait bugger donc on l'a enlevé)
 
 
 
