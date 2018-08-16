@@ -1,3 +1,57 @@
 // Place all the styles related to the Home controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+#text{
+	margin-top: 13rem;
+	padding:1rem 1rem;
+}
+
+#titre{
+	color:black;
+	border:solid;
+	border-width: 1px;
+	border-color: #D6D5C9;
+	border-radius:0.3rem;
+	padding-top:1.5rem ;
+	padding-bottom:1.2rem;
+	background-color: transparent;
+	-webkit-transition: background-color 1s, border-color; /* Safari */
+  transition: background-color 1s, border-color;
+}
+
+#titre:hover{
+	border:solid;
+	border-width: 1px;
+	border-color: transparent;
+	border-radius:0.3rem;
+	background-color: #81A684;
+}
+
+#slogan{
+	margin-top:6rem;
+}
+
+#description{
+	margin-top:2rem;
+}
+
+#back_img{
+	background-image: url(/assets/banner_img.jpg);
+	background-size:100%;
+	height:100vh;
+}
+
+#back_color{
+	position:absolute;
+	width:100%;
+	height:100%;
+	background-color: #457F45;
+	opacity:0.5;
+}
+
+#contain2{
+	background: #0A100D;
+}
+
