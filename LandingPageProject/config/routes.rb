@@ -1,7 +1,8 @@
 Rails.application.routes.draw do
 
-  root 'home2#index'
-  get "/home", to: 'homes#new' 
+  root 'homes#new'
+  get "/landingpage2", to: 'home2#new' 
+
   resources :homes
   resources :mails
 
