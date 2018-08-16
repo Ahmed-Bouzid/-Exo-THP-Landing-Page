@@ -17,3 +17,11 @@ pour qu'elles s'inscrivent à la newsletter et ainsi recevoir les dernières act
 
 > de bots pour le marketing
 
+
+
+### Les templates
+
+> un template fait maison et un template importé puis modifié
+
+
+
