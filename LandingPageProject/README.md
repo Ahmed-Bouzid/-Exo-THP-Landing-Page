@@ -1,24 +1,15 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Partie Mailchimp
 
-Things you may want to cover:
+> API utilisé:
+> Gibbon https://github.com/amro/gibbon
 
-* Ruby version
+### Installation
 
-* System dependencies
+> $ gem install gibbon
 
-* Configuration
 
-* Database creation
+> Vous devez ouvrir un compte sur Mailchimp pour récuperer la clé API  https://login.mailchimp.com/?referrer=%2Faccount%2Fapi%2F
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+> Elle se trouve dans account > extras

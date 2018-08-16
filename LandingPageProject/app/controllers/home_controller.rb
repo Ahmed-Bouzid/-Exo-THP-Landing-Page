@@ -18,7 +18,7 @@ class HomeController < ApplicationController
 		@user = User.create(first_name: @first_name, last_name:@last_name, email:@email, city: @city, phone:@phone, occupation:@occupation)
 
 
-		@hash = [@first_name, @last_name, @email, @city, @phone, @occupation] 
+		@hash = [@first_name, @last_name, @email, @city, @phone, @occupation]
 		puts @hash
 
 		File.open('db/info.json', 'w') do |f|
