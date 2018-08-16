@@ -2,6 +2,8 @@
 <html>
   <head>
 
+    <%= analytics_init if GoogleAnalytics.valid_tracker? %> 
+
     <title>LandingPageProject</title>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
