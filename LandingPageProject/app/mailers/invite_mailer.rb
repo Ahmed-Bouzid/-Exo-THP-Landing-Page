@@ -12,7 +12,7 @@ class InviteMailer < ApplicationMailer
       recipients: [{email: user}],
       subject: "The Hacking project !",
       text_part: "Bonjour, connaissez-vous the Hacking project ? Une formation de developpement web totalement gratuite, qui vous sera surement très utile !
-      Venez sur:    pour en savoir plus. "
+      Venez sur: https://thp-landing.herokuapp.com "
      )
     p mail.attributes['Sent']
 
