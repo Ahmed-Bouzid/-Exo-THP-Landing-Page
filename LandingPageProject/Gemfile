@@ -13,7 +13,7 @@ gem 'rails-erd', group: :development
 group :production do
   gem 'pg'
 end
-
+gem 'dotenv', '~> 2.5'
 gem 'mailjet'
 
 # Use Puma as the app server

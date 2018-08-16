@@ -1,5 +1,7 @@
 require_relative '../mailers/invite_mailer'
 require_relative '../controllers/mail_controller'
+require 'dotenv'
+Dotenv.load
 
 class InviteMailer < ApplicationMailer
 
