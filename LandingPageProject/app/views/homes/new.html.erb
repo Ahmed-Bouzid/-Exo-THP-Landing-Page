@@ -27,7 +27,7 @@
         <div class="jumbotron jumbotron-fluid">
 
           <h3>Recevoir la newletter</h3>
-          <%= form_for :user do |f| %>
+          <%= form_for(@user , url: homes_path) do |f| %>
 
           <div class="form-group row">
             <%= f.label :first_name  %>

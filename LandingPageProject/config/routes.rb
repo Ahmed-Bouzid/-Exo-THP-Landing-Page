@@ -1,10 +1,8 @@
 Rails.application.routes.draw do
 
-  get 'mail/new'
-  get 'mail/create'
-  get 'mail/show'
-  root 'home#index'
+  root 'homes#new'
 
-  resources :home
+  resources :homes
+  resources :mails
 
 end

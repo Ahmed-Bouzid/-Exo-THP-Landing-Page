@@ -1,9 +1,19 @@
+require_relative '../controllers/homes_controller'
+
+
+
 class UserMailer < ApplicationMailer
 
-  default from: 'ahmahm@hotmail.co.jp'
+	def welcome_mail(user)
+    mail = Mailjet::Send.create(
+    # mail(
+      from_email: Rails.application.secrets.secret_mail,
+      recipients: [{email: user}],
+      subject: "The Hacking project newsletter !",
+      text_part: "Bonjour voici ta newsletter... Oui elle ne sert à rien seulement, juste à tester notre application. ;) "
+     )
+    p mail.attributes['Sent']
 
-  def welcome_email
-    mail(to:'iatrou.thomas@gmail.com', subject: 'Et si tu apprenais à coder pour changer de vie ?')
   end
 
 end
