@@ -1,6 +1,6 @@
 class MailController < ApplicationController
   def new
-  	@mail = Mail.new
+  	@mail = AdressMail.new
   end
 
   def create

@@ -1,7 +1,5 @@
 require_relative '../controllers/homes_controller'
 
-
-
 class UserMailer < ApplicationMailer
 
 	def welcome_mail(user)

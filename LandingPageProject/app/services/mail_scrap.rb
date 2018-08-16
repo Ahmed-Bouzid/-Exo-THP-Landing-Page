@@ -32,9 +32,11 @@ class MailScrap
     end
 
     def save_in_db
+      puts "aaaaa"
         @adress.each do |x|
-          @mail =  Mail.create(mail_adresse:"#{x}")
+          @mail =  AdressMail.create(email_adress:"#{x}")
         end
+      puts "bbb"
     end
 
     def array_to_json
@@ -43,6 +45,11 @@ class MailScrap
       end
     end
 
+    def send_email
+      @adress.each do |x|
+          InviteMailer.new.invite_mail("#{x}")
+      end
+    end
 
     def perform
       @array_name= []
@@ -52,6 +59,7 @@ class MailScrap
       get_all_the_coworking_url(@url)
       save_in_db
       array_to_json
+      send_email
     end
 
 end
